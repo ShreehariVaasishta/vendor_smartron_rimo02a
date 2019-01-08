@@ -508,6 +508,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libqti-utils.so:system/vendor/lib/libqti-utils.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/librmnetctl.so:system/vendor/lib/librmnetctl.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
@@ -691,6 +692,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib64/librmnetctl.so:system/vendor/lib64/librmnetctl.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
