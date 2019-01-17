@@ -22,17 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb \
     vendor/smartron/rimo02a/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb \
     vendor/smartron/rimo02a/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb \
-    vendor/smartron/rimo02a/proprietary/etc/camera/s5k3l8_yuanda_chromatix.xml:system/etc/camera/s5k3l8_yuanda_chromatix.xml \
-    vendor/smartron/rimo02a/proprietary/etc/camera/s5k5e8_chromatix.xml:system/etc/camera/s5k5e8_chromatix.xml \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/smartron/rimo02a/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
     vendor/smartron/rimo02a/proprietary/etc/firmware/venus-v1.b01:system/etc/firmware/venus-v1.b01 \
     vendor/smartron/rimo02a/proprietary/etc/firmware/venus-v1.b02:system/etc/firmware/venus-v1.b02 \
@@ -51,178 +40,12 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/etc/nqnfcse_access.xml:system/etc/nqnfcse_access.xml \
     vendor/smartron/rimo02a/proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:system/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/smartron/rimo02a/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:system/lib/android.hardware.biometrics.fingerprint@2.1.so \
-    vendor/smartron/rimo02a/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
-    vendor/smartron/rimo02a/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/smartron/rimo02a/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/smartron/rimo02a/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/smartron/rimo02a/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/smartron/rimo02a/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/smartron/rimo02a/proprietary/lib64/android.hardware.biometrics.fingerprint@2.1.so:system/lib64/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/smartron/rimo02a/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
-    vendor/smartron/rimo02a/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/smartron/rimo02a/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/smartron/rimo02a/proprietary/vendor/etc/libnfc-brcm.conf:system/vendor/etc/libnfc-brcm.conf \
     vendor/smartron/rimo02a/proprietary/vendor/etc/libnfc-nxp.conf:system/vendor/etc/libnfc-nxp.conf \
     vendor/smartron/rimo02a/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libactuator_dw9714_yuanda.so:system/vendor/lib/libactuator_dw9714_yuanda.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:system/vendor/lib/libchromatix_csidtg_postproc.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_csidtg_preview.so:system/vendor/lib/libchromatix_csidtg_preview.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:system/vendor/lib/libchromatix_csidtg_zsl_preview.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_a3_default_preview_dw9714_yuanda.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_a3_default_preview_dw9714_yuanda.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_a3_default_video_dw9714_yuanda.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_a3_default_video_dw9714_yuanda.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_a3_hfr_120_dw9714_yuanda.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_a3_hfr_120_dw9714_yuanda.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_a3_hfr_60_dw9714_yuanda.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_a3_hfr_60_dw9714_yuanda.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_a3_hfr_90_dw9714_yuanda.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_a3_hfr_90_dw9714_yuanda.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_a3_zsl_preview_dw9714_yuanda.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_a3_zsl_preview_dw9714_yuanda.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_a3_zsl_video_dw9714_yuanda.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_a3_zsl_video_dw9714_yuanda.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_common.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_common.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_hfr_120.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_hfr_60.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_hfr_90.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_liveshot.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_preview.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_preview.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_snapshot.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_video.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_cpp_video.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_default_video.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_default_video.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_hfr_120.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_hfr_60.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_hfr_90.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_liveshot.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_liveshot.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_postproc.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_postproc.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_preview.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_preview.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k3l8_yuanda_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_yuanda_snapshot.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_a3_default_preview.so:system/vendor/lib/libchromatix_s5k5e8_a3_default_preview.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_a3_default_video.so:system/vendor/lib/libchromatix_s5k5e8_a3_default_video.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_a3_hfr_120.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_a3_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_a3_hfr_60.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_a3_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_a3_hfr_90.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_common.so:system/vendor/lib/libchromatix_s5k5e8_common.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_cpp_ds_chromatix.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_cpp_hfr_120.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_cpp_hfr_60.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_cpp_hfr_90.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_cpp_liveshot.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_preview.so:system/vendor/lib/libchromatix_s5k5e8_cpp_preview.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_cpp_snapshot.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_us_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_cpp_us_chromatix.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_video.so:system/vendor/lib/libchromatix_s5k5e8_cpp_video.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_video_full.so:system/vendor/lib/libchromatix_s5k5e8_cpp_video_full.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_default_video.so:system/vendor/lib/libchromatix_s5k5e8_default_video.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_hfr_120.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_hfr_60.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_hfr_90.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_liveshot.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_postproc.so:system/vendor/lib/libchromatix_s5k5e8_postproc.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_preview.so:system/vendor/lib/libchromatix_s5k5e8_preview.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_snapshot.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_video_full.so:system/vendor/lib/libchromatix_s5k5e8_video_full.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_zsl_preview.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_zsl_video.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libllvd_sw_tnr.so:system/vendor/lib/libllvd_sw_tnr.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:system/vendor/lib/libmmcamera2_mct_shimlayer.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_abcc44.so:system/vendor/lib/libmmcamera_isp_abcc44.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:system/vendor/lib/libmmcamera_isp_bf_stats47.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_bg_stats44.so:system/vendor/lib/libmmcamera_isp_bg_stats44.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:system/vendor/lib/libmmcamera_isp_bhist_stats44.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_bpc40.so:system/vendor/lib/libmmcamera_isp_bpc40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:system/vendor/lib/libmmcamera_isp_chroma_enhan40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:system/vendor/lib/libmmcamera_isp_chroma_suppress40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:system/vendor/lib/libmmcamera_isp_clamp_encoder40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:system/vendor/lib/libmmcamera_isp_clamp_video40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:system/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_color_correct40.so:system/vendor/lib/libmmcamera_isp_color_correct40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder40.so:system/vendor/lib/libmmcamera_isp_color_xform_encoder40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so:system/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_cs_stats44.so:system/vendor/lib/libmmcamera_isp_cs_stats44.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_demosaic40.so:system/vendor/lib/libmmcamera_isp_demosaic40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_demux40.so:system/vendor/lib/libmmcamera_isp_demux40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so:system/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so:system/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_gamma40.so:system/vendor/lib/libmmcamera_isp_gamma40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_ihist_stats44.so:system/vendor/lib/libmmcamera_isp_ihist_stats44.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:system/vendor/lib/libmmcamera_isp_linearization40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:system/vendor/lib/libmmcamera_isp_ltm44.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:system/vendor/lib/libmmcamera_isp_luma_adaptation40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_mce40.so:system/vendor/lib/libmmcamera_isp_mce40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff40.so:system/vendor/lib/libmmcamera_isp_mesh_rolloff40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_rs_stats44.so:system/vendor/lib/libmmcamera_isp_rs_stats44.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder44.so:system/vendor/lib/libmmcamera_isp_scaler_encoder44.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so:system/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_template.so:system/vendor/lib/libmmcamera_isp_template.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_le2464c_eeprom.so:system/vendor/lib/libmmcamera_le2464c_eeprom.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_s5k3l8_yuanda.so:system/vendor/lib/libmmcamera_s5k3l8_yuanda.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_s5k5e8.so:system/vendor/lib/libmmcamera_s5k5e8.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_sunny_p5s13b_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5s13b_eeprom.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/vendor/lib/libmmcamera_sw2d_lib.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_sw_tnr.so:system/vendor/lib/libmmcamera_sw_tnr.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmcamera_yuanda_gt24c64a_eeprom.so:system/vendor/lib/libmmcamera_yuanda_gt24c64a_eeprom.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmosal_proprietary.so:system/vendor/lib/libmmosal_proprietary.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/fingerprint.default.so:system/vendor/lib64/hw/fingerprint.default.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/nfc_nci.nqx.default.so:system/vendor/lib64/hw/nfc_nci.nqx.default.so \
