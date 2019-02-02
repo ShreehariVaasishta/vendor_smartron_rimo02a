@@ -222,17 +222,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/lib64/android.hardware.biometrics.fingerprint@2.1.so:system/lib64/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/smartron/rimo02a/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/smartron/rimo02a/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
-    vendor/smartron/rimo02a/proprietary/vendor/etc/libnfc-brcm.conf:system/vendor/etc/libnfc-brcm.conf \
-    vendor/smartron/rimo02a/proprietary/vendor/etc/libnfc-nxp.conf:system/vendor/etc/libnfc-nxp.conf \
-    vendor/smartron/rimo02a/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@1.0-service.rc:system/vendor/etc/init/vendor.nxp.hardware.nfc@1.0-service.rc \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/vendor.nxp.hardware.nfc@1.0_vendor.so:system/vendor/lib/vendor.nxp.hardware.nfc@1.0_vendor.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/hw/vendor.nxp.hardware.nfc@1.0-impl.so:system/vendor/lib/hw/vendor.nxp.hardware.nfc@1.0-impl.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/hw/android.hardware.nfc@1.0-impl.so:system/vendor/lib/hw/android.hardware.nfc@1.0-impl.so \
-    vendor/smartron/rimo02a/proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@1.0-service:system/vendor/bin/hw/vendor.nxp.hardware.nfc@1.0-service \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/vendor.nxp.hardware.nfc@1.0_vendor.so:system/vendor/lib64/vendor.nxp.hardware.nfc@1.0_vendor.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/vendor.nxp.hardware.nfc@1.0-impl.so:system/vendor/lib64/hw/vendor.nxp.hardware.nfc@1.0-impl.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/android.hardware.nfc@1.0-impl.so:system/vendor/lib64/hw/android.hardware.nfc@1.0-impl.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/nfc_nci.nqx.default.so:system/vendor/lib64/hw/nfc_nci.nqx.default.so \
     vendor/smartron/rimo02a/proprietary/etc/nqnfcse_access.xml:system/etc/nqnfcse_access.xml \
     vendor/smartron/rimo02a/proprietary/lib/android.hardware.nfc@1.0.so:system/etc/android.hardware.nfc@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib/libnfc_ndef.so:system/etc/libnfc_ndef.so \
