@@ -276,6 +276,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/smartron/rimo02a/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/smartron/rimo02a/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
+    vendor/smartron/rimo02a/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/smartron/rimo02a/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/smartron/rimo02a/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/smartron/rimo02a/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/smartron/rimo02a/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
