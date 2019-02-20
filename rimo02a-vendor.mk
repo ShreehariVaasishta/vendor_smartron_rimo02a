@@ -402,6 +402,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/smartron/rimo02a/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/smartron/rimo02a/proprietary/vendor/etc/data/qmi_config.xml:system/vendor/etc/data/qmi_config.xml \
+    vendor/smartron/rimo02a/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/smartron/rimo02a/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/smartron/rimo02a/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/smartron/rimo02a/proprietary/vendor/etc/init/vendor.qti.gnss@2.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@2.0-service.rc \
@@ -612,6 +613,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/lib-uceservice.so:system/vendor/lib64/lib-uceservice.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/libDiracAPI_SHARED.so:system/vendor/lib/libDiracAPI_SHARED.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
@@ -728,6 +730,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/soundfx/libdirac.so:system/vendor/lib/soundfx/libdirac.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
