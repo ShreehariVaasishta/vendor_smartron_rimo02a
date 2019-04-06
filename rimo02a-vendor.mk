@@ -550,6 +550,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/smartron/rimo02a/proprietary/lib/soundfx/libasphere.so:system/lib/soundfx/libasphere.so \
+    vendor/smartron/rimo02a/proprietary/lib64/soundfx/libasphere.so:system/lib64/soundfx/libasphere.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:system/vendor/lib/vendor.display.color@1.0_vendor.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:system/vendor/lib/vendor.display.postproc@1.0_vendor.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/vendor.qti.data.factory@1.0.so:system/vendor/lib/vendor.qti.data.factory@1.0.so \
