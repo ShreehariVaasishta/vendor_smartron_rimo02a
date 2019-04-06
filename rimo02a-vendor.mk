@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/media/audio/ui/camera_click.ogg:system/media/audio/ui/camera_click.ogg \
     vendor/smartron/rimo02a/proprietary/media/audio/ui/camera_focus.ogg:system/media/audio/ui/camera_focus.ogg \
     vendor/smartron/rimo02a/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
+    vendor/smartron/rimo02a/proprietary/vendor/bin/port-bridge:system/vendor/bin/port-bridge \
     vendor/smartron/rimo02a/proprietary/vendor/lib/hw/camera.msm8952.so:system/vendor/lib/hw/camera.msm8952.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libactuator_dw9714_yuanda.so:system/vendor/lib/libactuator_dw9714_yuanda.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
