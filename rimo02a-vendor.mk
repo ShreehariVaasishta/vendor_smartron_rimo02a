@@ -368,6 +368,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/smartron/rimo02a/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/smartron/rimo02a/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
+    vendor/smartron/rimo02a/proprietary/lib/modules/core_ctl.ko:system//lib/modules/core_ctl.ko \
     vendor/smartron/rimo02a/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/smartron/rimo02a/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/smartron/rimo02a/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
