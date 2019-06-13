@@ -772,6 +772,14 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0_vendor.so
 
+# PowerOffAlarm blobs from tissot
+PRODUCT_COPY_FILES += \
+    vendor/smartron/rimo02a/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service \
+    vendor/smartron/rimo02a/proprietary/vendor/bin/power_off_alarm:system/vendor/bin/power_off_alarm \
+    vendor/smartron/rimo02a/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
+    vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib64/vendor.qti.hardware.alarm@1.0.so
+
 PRODUCT_PACKAGES += \
     libantradio \
     vendor.display.color@1.0 \
@@ -796,4 +804,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyServicelibrary \
     UxPerformance \
     qcrilhook \
-    qti-telephony-common
+    qti-telephony-common \
+    PowerOffAlarm
+
