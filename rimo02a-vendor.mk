@@ -26,9 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/etc/camera/s5k3l8_yuanda_chromatix.xml:system/etc/camera/s5k3l8_yuanda_chromatix.xml \
     vendor/smartron/rimo02a/proprietary/etc/camera/s5k5e8_chromatix.xml:system/etc/camera/s5k5e8_chromatix.xml \
     vendor/smartron/rimo02a/proprietary/etc/firmware/cpp_firmware_v1_5_1.fw:system/etc/firmware/cpp_firmware_v1_5_1.fw \
-    vendor/smartron/rimo02a/proprietary/lib/libc.so:system/lib/libc.so \
     vendor/smartron/rimo02a/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/smartron/rimo02a/proprietary/lib64/libc.so:system/lib64/libc.so \
     vendor/smartron/rimo02a/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/smartron/rimo02a/proprietary/media/audio/ui/camera_click.ogg:system/media/audio/ui/camera_click.ogg \
     vendor/smartron/rimo02a/proprietary/media/audio/ui/camera_focus.ogg:system/media/audio/ui/camera_focus.ogg \
