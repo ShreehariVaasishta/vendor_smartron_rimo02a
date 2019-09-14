@@ -268,7 +268,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/smartron/rimo02a/proprietary/framework/vendor.qti.data.factory-V1.0-java.jar:system/framework/vendor.qti.data.factory-V1.0-java.jar \
     vendor/smartron/rimo02a/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
-    vendor/smartron/rimo02a/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
@@ -307,7 +306,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/smartron/rimo02a/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
@@ -582,7 +580,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/vendor.qti.latency@2.0.so:system/vendor/lib/vendor.qti.latency@2.0.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:system/vendor/lib/vendor.qti.voiceprint@1.0.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:system/vendor/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
@@ -595,7 +593,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/activity_recognition.msm8952.so:system/vendor/lib64/hw/activity_recognition.msm8952.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:system/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/keystore.msm8952.so:system/vendor/lib64/hw/keystore.msm8952.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so \
@@ -779,7 +776,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
 PRODUCT_PACKAGES += \
-    libantradio \
     vendor.display.color@1.0 \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.api@1.1 \
