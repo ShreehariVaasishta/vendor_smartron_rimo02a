@@ -232,26 +232,20 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 PRODUCT_COPY_FILES += \
-    vendor/smartron/rimo02a/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/smartron/rimo02a/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
     vendor/smartron/rimo02a/proprietary/etc/perf/whitelistedapps.xml:system/etc/perf/whitelistedapps.xml \
-    vendor/smartron/rimo02a/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/smartron/rimo02a/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/smartron/rimo02a/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/smartron/rimo02a/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/smartron/rimo02a/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/smartron/rimo02a/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/smartron/rimo02a/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/smartron/rimo02a/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/smartron/rimo02a/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/smartron/rimo02a/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/smartron/rimo02a/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/smartron/rimo02a/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
@@ -264,11 +258,9 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/framework/com.quicinc.cne.server-V2.0-java.jar:system/framework/com.quicinc.cne.server-V2.0-java.jar \
     vendor/smartron/rimo02a/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:system/framework/com.quicinc.cne.server-V2.1-java.jar \
     vendor/smartron/rimo02a/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:system/framework/com.quicinc.cne.server-V2.2-java.jar \
-    vendor/smartron/rimo02a/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/smartron/rimo02a/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/smartron/rimo02a/proprietary/framework/vendor.qti.data.factory-V1.0-java.jar:system/framework/vendor.qti.data.factory-V1.0-java.jar \
     vendor/smartron/rimo02a/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
-    vendor/smartron/rimo02a/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/smartron/rimo02a/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
@@ -280,10 +272,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/smartron/rimo02a/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/smartron/rimo02a/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
-    vendor/smartron/rimo02a/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
-    vendor/smartron/rimo02a/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
-    vendor/smartron/rimo02a/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
-    vendor/smartron/rimo02a/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
     vendor/smartron/rimo02a/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/smartron/rimo02a/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/smartron/rimo02a/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
@@ -306,7 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/smartron/rimo02a/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/smartron/rimo02a/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/smartron/rimo02a/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
@@ -316,10 +303,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/smartron/rimo02a/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/smartron/rimo02a/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
-    vendor/smartron/rimo02a/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
-    vendor/smartron/rimo02a/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
-    vendor/smartron/rimo02a/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
-    vendor/smartron/rimo02a/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
     vendor/smartron/rimo02a/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/smartron/rimo02a/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/smartron/rimo02a/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
@@ -791,7 +774,6 @@ PRODUCT_PACKAGES += \
     imssettings \
     uceShimService \
     CNEService \
-    dpmserviceapp \
     qcrilmsgtunnel \
     TimeService \
     QPerformance \
