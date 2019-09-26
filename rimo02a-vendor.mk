@@ -216,20 +216,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/smartron/rimo02a/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/smartron/rimo02a/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/smartron/rimo02a/proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:system/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
-    vendor/smartron/rimo02a/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:system/lib/android.hardware.biometrics.fingerprint@2.1.so \
-    vendor/smartron/rimo02a/proprietary/lib64/android.hardware.biometrics.fingerprint@2.1.so:system/lib64/android.hardware.biometrics.fingerprint@2.1.so \
-    vendor/smartron/rimo02a/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
-    vendor/smartron/rimo02a/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
-    vendor/smartron/rimo02a/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/fingerprint.default.so:system/vendor/lib64/hw/fingerprint.default.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/libgf_ca.so:system/vendor/lib64/libgf_ca.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/libgf_hal.so:system/vendor/lib64/libgf_hal.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:system/vendor/lib64/libgoodixfingerprintd_binder.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:system/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:system/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
