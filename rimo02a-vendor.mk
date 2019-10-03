@@ -516,7 +516,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib64/libwvhidl.so:system/vendor/lib/libwvhidl.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so \
