@@ -273,7 +273,8 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := qti-telephony-common
 LOCAL_MODULE_OWNER := smartron
-LOCAL_SRC_FILES := proprietary/framework/qti-telephony-common.jar
+LOCAL_SRC_FILES := proprietary/product/framework/qti-telephony-common.jar
+LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/framework
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
